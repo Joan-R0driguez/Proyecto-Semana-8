@@ -14,13 +14,14 @@ const Results = async() => {
             </section>
             <section class="data-sprites">
                 <section class="datos">
-                    <h1>Nombre: ${pokemon.name}</h1>
+                    <h1>Nombre: ${pokemon.name.charAt(0).toUpperCase() + pokemon.name.slice(1)}</h1>
                     <p>N°${pokemon.id}</p>
-                    <p>Peso: ${pokemon.weight}hg</p>
-                    <p>Altura: ${pokemon.height}dm</p>
+                    <p>Peso: ${pokemon.weight / 10}kg</p>
+                    <p>Altura: ${pokemon.height / 10}m</p>
                     ${pokemon.types.map( type => `
-                        <p>Tipo: ${type.name}</p>
+                        <p>Tipo: ${type.type.name}</p>
                     `).join("")}
+                    <p>Habilidad: ${pokemon.abilities[0].ability.name}</p>
                 </section>
                 <section class="spritesingame">
                     <img src="${pokemon.sprites.front_default}" alt="">
