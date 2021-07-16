@@ -1,0 +1,11 @@
+footer{
+    background-color: #33708f;
+    padding: 10px;
+}
+
+footer h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: whitesmoke;
+}

@@ -1,0 +1,53 @@
+.pokecard{
+    border: 1px solid black;
+    background-color: #eb4034;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sprite img{
+    width: 230px;
+    margin: 15px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: whitesmoke;
+}
+
+.data-sprites{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.datos{
+    width: 160px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.datos h1{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.datos p{
+    margin-bottom: 10px;
+}
+
+.spritesingame{
+    display: flex;
+    margin-top: 25px;
+    flex-direction: row;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+.spritesingame img{
+    margin-left: 10px;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    border-radius: 30px;
+}

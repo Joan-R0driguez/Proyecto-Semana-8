@@ -1,0 +1,42 @@
+.buscador{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    background-color: #33708f;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.buscador h1{
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.buscador p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+
+.buscador input{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+.buscador button{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid black;
+    color: whitesmoke;
+    background-color: #ab3434;
+}
