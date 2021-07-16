@@ -15,8 +15,9 @@ const Results = async() => {
             <section class="data-sprites">
                 <section class="datos">
                     <h1>Nombre: ${pokemon.name}</h1>
-                    <p>Peso: ${pokemon.weight}kg</p>
-                    <p>Altura: ${pokemon.height}m</p>
+                    <p>N°${pokemon.id}</p>
+                    <p>Peso: ${pokemon.weight}hg</p>
+                    <p>Altura: ${pokemon.height}dm</p>
                     ${pokemon.types.map( type => `
                         <p>Tipo: ${type.name}</p>
                     `).join("")}
